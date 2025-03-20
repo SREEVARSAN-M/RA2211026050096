@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.app {
+  width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: lightgray;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gray;
+  color: white;
+}
+
+.results {
+  margin-top: 15px;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
